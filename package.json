@@ -4,8 +4,7 @@
   "description": "SPORTS BRO is an app that syncs up multiple sports news sources, allowing easy sports concumption, sharing, and promotion of sports related dialogue and shit talk.",
   "main": "server.js",
   "scripts": {
-    "client-install": "npm install --profix client",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
