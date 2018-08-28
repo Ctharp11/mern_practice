@@ -21,7 +21,7 @@ mongoose.connect(db)
 app.use('/api/items', items);
 
 //serve static assets if in production
-if(process.env.NODE.ENV === 'production') {
+if(process.env.NODE_ENV === 'production') {
     //set static folder
     app.use(express.static('client/build'));
     app.get('*', (req, res) => {
