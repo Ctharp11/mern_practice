@@ -10,6 +10,7 @@ WEBPACK 4
     
 REACT AND REDUX
 NODE AND EXPRESS
-MONGODB
+MONGODB  ss
+
 
 OTHER: users will have profiles, ability to save profile images, save 
