@@ -12,9 +12,7 @@ const items = require('./routes/api');
 
 app.use(bodyParser.json());
 
-const db = process.env.DATABASE
-
-mongoose.connect(db)
+mongoose.connect(process.env.DATABASE, {useNewUrlParser: true})
     .then(() => console.log('MongoDB conntected'))
     .catch(err => console.log(`MongoDB error ${err}`))
 
