@@ -1,4 +1,4 @@
-SPORTS BRO is an app that syncs up multiple sports news sources, allowing easy sports concumption, sharing, and promotion of sports related dialogue and shit talk. 
+SPORTS BRO is an app that syncs up multiple sports news sources, allowing easy sports concumption, sharing, and promotion of sports related dialogue and talk. 
 
 TECH: 
 SASS
